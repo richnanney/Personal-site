@@ -1,29 +1,29 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Ubuntu:wght@300&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #E7E7E7   ;
+  --secondary-color: #4F6A88 ;
+  --accent1-color: #100F14;
+  --accent2-color: #7F8199;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: "Ubuntu";
+  --paragraph-font: Cabin;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --headline-color-on-white: #4F6A88;  /* headlines on a white background */ 
+  --headline-color-on-color: #E7E7E7 ; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #4F6A88; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #E7E7E7 ; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #4F6A88  ;
+  --nav-link-color: #100F14;
+  --nav-background-color: #4F6A88;
+  --nav-hover-link-color: #E7E7E7;
+  --nav-hover-background-color: #7F8199;
 }
 
 
@@ -89,6 +89,7 @@ p {
 }
 .accent1 {
   background-color: var(--accent1-color);
+  color: white; /* Sorry, I changed this one line so you can see the hex code on the site. */
 }
 .accent2{
   background-color: var(--accent2-color);
